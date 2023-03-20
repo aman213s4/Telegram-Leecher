@@ -841,11 +841,11 @@ async def FinalStep():
 # ****************************************************************
 
 
-api_id = 14269266
-api_hash = "d454cd5c47a4cea89b6ce7448c532fc4"
-bot_token = "5611075507:AAHK2qJMsqfryprRAlYgW2GB0vgokJjlu00"
-chat_id = 1564082459
-dump_id = -1001578391154
+api_id = 12345678 # <== YOUR TELEGRAM API ID HERE
+api_hash = "c454ad5c49z4cea89b6ce7458c539fc0" # <== YOUR TELEGRAM API HASH HERE
+bot_token = "8311093507:ZftqVhjhvbuynDoytkdfyYgW2GBFUlu01" # <== YOUR TELEGRAM BOT TOKEN HERE
+chat_id = 1123456789 # <== YOUR CHAT ID WHERE ALL STATUS AND LOGS WILL BE SHOWN
+dump_id = -100112345679 # <== A CHANNEL OR SUPERGROUP CHAT ID WHERE ALL FILES WILL BE UPLOADED
 link_p = str(dump_id)[4:]
 thumb_path = "/content/thmb.jpg"
 d_path = "/content/Downloads"
