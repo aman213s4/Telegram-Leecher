@@ -849,8 +849,6 @@ dump_id = -1001578391154
 link_p = str(dump_id)[4:]
 thumb_path = "/content/thmb.jpg"
 d_path = "/content/Downloads"
-if not ospath.exists(d_path):
-    makedirs(d_path)
 d_name = ""
 d_fol_path = d_path  # Initial Declaration
 temp_lpath = f"{d_path}/Leeched_Files"
@@ -869,7 +867,6 @@ down_count = []
 down_count.append(1)
 start_time = datetime.datetime.now()
 text_msg = ""
-
 service = build_service()
 
 if not os.path.exists(thumb_path):
